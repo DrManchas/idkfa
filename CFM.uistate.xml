@@ -11,16 +11,20 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout order="0">Layout 1</layout>
-        <layout order="2">GameScreen</layout>
+        <layout active="1" order="2">GameScreen</layout>
         <layout order="3">MenuScreen</layout>
+        <layout order="11">Options</layout>
+        <layout order="12">Records</layout>
         <event-sheet order="1">GameMechanics</event-sheet>
         <event-sheet order="4">BombBehavior</event-sheet>
         <event-sheet order="5">CakeBehavior</event-sheet>
-        <event-sheet active="1" order="6">TubeBehavior</event-sheet>
-        <event-sheet order="7">ScoreBehavior</event-sheet>
+        <event-sheet order="6">TubeBehavior</event-sheet>
+        <event-sheet order="7">ScoreMechanics</event-sheet>
         <event-sheet order="8">CameraBehavior</event-sheet>
         <event-sheet order="9">Vars</event-sheet>
         <event-sheet order="10">CFMBehavior</event-sheet>
+        <event-sheet order="13">MenuMechanics</event-sheet>
+        <event-sheet order="14">UIBehavior</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -30,20 +34,31 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </properties>
     <families-expanded root="1">
         <family expanded="1" name="Bombs" />
-        <family expanded="0" name="Cakes" />
+        <family expanded="1" name="Cakes" />
+        <family expanded="0" name="HomeUI" />
     </families-expanded>
     <folders-expanded>
         <folder expanded="1" path="object-folder/" />
         <folder expanded="1" path="object-folder/Bombs/" />
         <folder expanded="1" path="object-folder/Cakes/" />
+        <folder expanded="1" path="object-folder/UI/" />
+        <folder expanded="1" path="object-folder/UI/Home/" />
+        <folder expanded="1" path="object-folder/UI/Home/Buttons/" />
+        <folder expanded="1" path="object-folder/UI/Records/" />
+        <folder expanded="1" path="object-folder/UI/Records/Buttons/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="event-folder/" />
-        <folder expanded="1" path="file-folder/" />
+        <folder expanded="0" path="file-folder/" />
         <folder expanded="1" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />
         <folder expanded="0" path="file-folder/Icons/" />
         <folder expanded="1" path="animation-folder/Bomb/" />
         <folder expanded="1" path="animation-folder/Cake/" />
+        <folder expanded="1" path="animation-folder/Cake2/" />
+        <folder expanded="1" path="animation-folder/OptionsButton/" />
+        <folder expanded="1" path="animation-folder/PlayButton/" />
+        <folder expanded="1" path="animation-folder/ScoreButton/" />
+        <folder expanded="1" path="animation-folder/RecordTable/" />
         <folder expanded="1" path="animation-folder/CakeFactoryMonster/" />
         <folder expanded="1" path="animation-folder/Tube/" />
     </folders-expanded>

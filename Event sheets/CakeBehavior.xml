@@ -21,15 +21,26 @@
             </conditions>
             <actions>
                 <action id="-9" name="Destroy" sid="4730851310323069" type="Cakes" />
+                <action id="-9" name="Set value" sid="6998913445175063" type="System">
+                    <param id="0" name="Variable">ActualScore</param>
+                    <param id="1" name="Value">ActualScore+1</param>
+                </action>
             </actions>
         </event-block>
-        <event-block sid="1533227955244266">
+        <event-block sid="4920187316936889">
             <conditions>
                 <condition id="0" name="On collision with another object" sid="8152969906448883" type="Cakes">
                     <param id="0" name="Object">Piso</param>
                 </condition>
+                <condition id="-4" name="Trigger once while true" sid="9595240572110525" type="System" />
             </conditions>
-            <actions />
+            <actions>
+                <action behavior="Physics" id="3" name="Apply impulse" sid="27570607913889" type="Cakes">
+                    <param id="0" name="Impulse X">-random(30,80)</param>
+                    <param id="1" name="Implulse Y">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+            </actions>
         </event-block>
     </events>
 </c2eventsheet>

@@ -11,6 +11,7 @@
     <saved-with-version>21202</saved-with-version>
     <used-plugins>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Spritefont2" version="1">Sprite font</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
         <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
     </used-plugins>
@@ -61,6 +62,63 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="Cake2" sid="5423171627699593">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3486674904842898" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="UI">
+            <object-folder name="Home">
+                <object-folder name="Buttons">
+                    <object-type name="OptionsButton" sid="1662071174778367">
+                        <plugin id="Sprite" />
+                        <animation-folder>
+                            <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1261239346830962" speed="5">
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                            </animation>
+                        </animation-folder>
+                    </object-type>
+                    <object-type name="PlayButton" sid="8166129488273213">
+                        <plugin id="Sprite" />
+                        <animation-folder>
+                            <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8977538899265009" speed="5">
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                            </animation>
+                        </animation-folder>
+                    </object-type>
+                    <object-type name="ScoreButton" sid="759297414302729">
+                        <plugin id="Sprite" />
+                        <animation-folder>
+                            <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4701634969996846" speed="5">
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                            </animation>
+                        </animation-folder>
+                    </object-type>
+                </object-folder>
+            </object-folder>
+            <object-folder name="Records">
+                <object-folder name="Buttons" />
+                <object-type name="RecordTable" sid="6892871399152759">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1240534737985116" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="ScoreText" sid="4412050407531532">
+                    <plugin id="Spritefont2" />
+                    <texture />
+                </object-type>
+            </object-folder>
+            <object-type name="SpriteFont" sid="6460879984773419">
+                <plugin id="Spritefont2" />
+                <texture />
+            </object-type>
         </object-folder>
         <object-type name="CakeFactoryMonster" sid="3647527436313366">
             <plugin id="Sprite" />
@@ -105,6 +163,7 @@
         <family name="Cakes" plugin-id="Sprite" sid="438171141394386">
             <members>
                 <member>Cake</member>
+                <member>Cake2</member>
             </members>
             <behaviors>
                 <behavior-type name="Physics" sid="8314840251652461">
@@ -112,21 +171,32 @@
                 </behavior-type>
             </behaviors>
         </family>
+        <family name="HomeUI" plugin-id="Sprite" sid="9214790736292839">
+            <members>
+                <member>OptionsButton</member>
+                <member>PlayButton</member>
+                <member>ScoreButton</member>
+            </members>
+        </family>
     </families>
     <layout-folder>
         <layout>Layout 1.xml</layout>
         <layout>GameScreen.xml</layout>
         <layout>MenuScreen.xml</layout>
+        <layout>Options.xml</layout>
+        <layout>Records.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>GameMechanics.xml</event-sheet>
         <event-sheet>BombBehavior.xml</event-sheet>
         <event-sheet>CakeBehavior.xml</event-sheet>
         <event-sheet>TubeBehavior.xml</event-sheet>
-        <event-sheet>ScoreBehavior.xml</event-sheet>
+        <event-sheet>ScoreMechanics.xml</event-sheet>
         <event-sheet>CameraBehavior.xml</event-sheet>
         <event-sheet>Vars.xml</event-sheet>
         <event-sheet>CFMBehavior.xml</event-sheet>
+        <event-sheet>MenuMechanics.xml</event-sheet>
+        <event-sheet>UIBehavior.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Touch" uid="10">

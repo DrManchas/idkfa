@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>MenuMechanics</name>
+    <events>
+        <event-block sid="3354851015631803">
+            <conditions>
+                <condition id="17" name="On tap object" sid="184950314042443" type="Touch">
+                    <param id="0" name="Object">PlayButton</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="1792558382203531" type="System">
+                    <param id="0" name="Layout">GameScreen</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

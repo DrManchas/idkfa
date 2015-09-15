@@ -23,15 +23,16 @@
                 <action id="-9" name="Destroy" sid="4676231423950504" type="CakeFactoryMonster" />
             </actions>
         </event-block>
-        <event-block sid="7428331980887146">
+        <event-block sid="8064102206762989">
             <conditions>
                 <condition id="0" name="On collision with another object" sid="3433652432832659" type="Bombs">
                     <param id="0" name="Object">Piso</param>
                 </condition>
+                <condition id="-4" name="Trigger once while true" sid="5657489617663006" type="System" />
             </conditions>
             <actions>
                 <action behavior="Physics" id="3" name="Apply impulse" sid="228670143088311" type="Bombs">
-                    <param id="0" name="Impulse X">-random(5,10)</param>
+                    <param id="0" name="Impulse X">-random(30,80)</param>
                     <param id="1" name="Implulse Y">0</param>
                     <param id="2" name="Image point">0</param>
                 </action>

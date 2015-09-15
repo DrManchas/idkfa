@@ -3,10 +3,12 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>GameMechanics</name>
     <events>
+        <include>UIBehavior</include>
+        <include>CFMBehavior</include>
         <include>CameraBehavior</include>
         <include>TubeBehavior</include>
         <include>Vars</include>
-        <include>ScoreBehavior</include>
+        <include>ScoreMechanics</include>
         <include>CakeBehavior</include>
         <include>BombBehavior</include>
     </events>
