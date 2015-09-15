@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>BombBehavior</name>
+    <events>
+        <event-block sid="9295466561002197">
+            <conditions>
+                <condition id="17" name="On tap object" sid="8666651503582049" type="Touch">
+                    <param id="0" name="Object">Bombs</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="7191266221107068" type="Bombs" />
+            </actions>
+        </event-block>
+        <event-block sid="8712559649858246">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="5378053103322045" type="Bombs">
+                    <param id="0" name="Object">CakeFactoryMonster</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="4676231423950504" type="CakeFactoryMonster" />
+            </actions>
+        </event-block>
+        <event-block sid="7428331980887146">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="3433652432832659" type="Bombs">
+                    <param id="0" name="Object">Piso</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Physics" id="3" name="Apply impulse" sid="228670143088311" type="Bombs">
+                    <param id="0" name="Impulse X">-random(5,10)</param>
+                    <param id="1" name="Implulse Y">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

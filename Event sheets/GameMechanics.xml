@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>GameMechanics</name>
+    <events>
+        <include>CameraBehavior</include>
+        <include>TubeBehavior</include>
+        <include>Vars</include>
+        <include>ScoreBehavior</include>
+        <include>CakeBehavior</include>
+        <include>BombBehavior</include>
+    </events>
+</c2eventsheet>

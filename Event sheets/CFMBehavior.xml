@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>CFMBehavior</name>
+    <events>
+        <event-block sid="5274693430198398">
+            <conditions>
+                <condition id="-19" name="On destroyed" sid="4924374325981052" type="CakeFactoryMonster" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="5801337260713227" type="Bombs" />
+                <action id="-9" name="Destroy" sid="6640057378478449" type="Cakes" />
+                <action id="-9" name="Destroy" sid="1627661190589981" type="Piso" />
+                <action id="-9" name="Destroy" sid="4733468205631622" type="Tube" />
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

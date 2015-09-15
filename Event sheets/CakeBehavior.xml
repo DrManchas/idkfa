@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>CakeBehavior</name>
+    <events>
+        <event-block sid="8356893338518292">
+            <conditions>
+                <condition id="17" name="On tap object" sid="5786023760864029" type="Touch">
+                    <param id="0" name="Object">Cakes</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="3426647788241737" type="Cakes" />
+            </actions>
+        </event-block>
+        <event-block sid="232632581685634">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="1592561253183189" type="Cakes">
+                    <param id="0" name="Object">CakeFactoryMonster</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="4730851310323069" type="Cakes" />
+            </actions>
+        </event-block>
+        <event-block sid="1533227955244266">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="8152969906448883" type="Cakes">
+                    <param id="0" name="Object">Piso</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+    </events>
+</c2eventsheet>
