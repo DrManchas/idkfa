@@ -15,5 +15,117 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="2538463646085424">
+            <conditions>
+                <condition id="3" name="On touched object" sid="8675602966908678" type="Touch">
+                    <param id="0" name="Object">ToggleMusic</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="6495024965928252" type="System">
+                    <param id="0" name="Variable">Music</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="6301389374908228" type="ToggleMusic">
+                    <param id="0" name="Animation">&quot;Off&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="-9" name="Set value" sid="9403398624365655" type="System">
+                    <param id="0" name="Variable">Music</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5509358861122867">
+            <conditions>
+                <condition id="3" name="On touched object" sid="3035132906456649" type="Touch">
+                    <param id="0" name="Object">ToggleMusic</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="4030611863270595" type="System">
+                    <param id="0" name="Variable">Music</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="2764363985046469" type="ToggleMusic">
+                    <param id="0" name="Animation">&quot;Default&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+                <action id="-9" name="Set value" sid="623952716037401" type="System">
+                    <param id="0" name="Variable">Music</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5363325702323874">
+            <conditions>
+                <condition id="3" name="On touched object" sid="2185380873714525" type="Touch">
+                    <param id="0" name="Object">BackButton</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="1687749478909487" type="System">
+                    <param id="0" name="Layout">MenuScreen</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4780085426842047">
+            <conditions>
+                <condition id="3" name="On touched object" sid="710460708996337" type="Touch">
+                    <param id="0" name="Object">OptionsButton</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="8881820749356559" type="System">
+                    <param id="0" name="Layout">Options</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8986372263389228">
+            <conditions>
+                <condition id="3" name="On touched object" sid="9647759053866541" type="Touch">
+                    <param id="0" name="Object">ToggleSound</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="6824944184182952" type="System">
+                    <param id="0" name="Variable">Sound</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="7586944799752698" type="System">
+                    <param id="0" name="Variable">Sound</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="4" name="Set animation" sid="1092014238720779" type="ToggleSound">
+                    <param id="0" name="Animation">&quot;Off&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5522251883924305">
+            <conditions>
+                <condition id="3" name="On touched object" sid="3523014760677348" type="Touch">
+                    <param id="0" name="Object">ToggleSound</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="8347497487859493" type="System">
+                    <param id="0" name="Variable">Sound</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="8906573534847478" type="System">
+                    <param id="0" name="Variable">Sound</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="2582416507599809" type="ToggleSound">
+                    <param id="0" name="Animation">&quot;Default&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

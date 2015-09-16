@@ -3,6 +3,8 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Vars</name>
     <events>
+        <variable constant="0" name="Sound" sid="3415631502491363" static="0" type="number">1</variable>
+        <variable constant="0" name="Music" sid="5560674147907426" static="0" type="number">1</variable>
         <variable constant="0" name="Zoom" sid="1990725611293986" static="0" type="number">1</variable>
         <variable constant="0" name="BestScore" sid="7869816136575685" static="0" type="number">0</variable>
         <variable constant="0" name="ActualScore" sid="7640047265785104" static="0" type="number">0</variable>

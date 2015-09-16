@@ -11,6 +11,10 @@
             </conditions>
             <actions>
                 <action id="-9" name="Destroy" sid="3426647788241737" type="Cakes" />
+                <action id="4" name="Set animation" sid="4492896168240849" type="CakeFactoryMonster">
+                    <param id="0" name="Animation">&quot;Sad&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="232632581685634">
@@ -35,10 +39,27 @@
                 <condition id="-4" name="Trigger once while true" sid="9595240572110525" type="System" />
             </conditions>
             <actions>
-                <action behavior="Physics" id="3" name="Apply impulse" sid="27570607913889" type="Cakes">
+                <action behavior="Physics" disabled="1" id="3" name="Apply impulse" sid="27570607913889" type="Cakes">
                     <param id="0" name="Impulse X">-random(30,80)</param>
                     <param id="1" name="Implulse Y">0</param>
                     <param id="2" name="Image point">0</param>
+                </action>
+                <action behavior="Physics" id="15" name="Set velocity" sid="2287881176184208" type="Cakes">
+                    <param id="0" name="X component">-110</param>
+                    <param id="1" name="Y component">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1644759844853385">
+            <conditions>
+                <condition id="4" name="On finished" sid="686761549181561" type="CakeFactoryMonster">
+                    <param id="0" name="Animation">&quot;Sad&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="9935129012379704" type="CakeFactoryMonster">
+                    <param id="0" name="Animation">&quot;Default&quot;</param>
+                    <param id="1" name="From">1</param>
                 </action>
             </actions>
         </event-block>

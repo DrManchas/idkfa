@@ -31,10 +31,14 @@
                 <condition id="-4" name="Trigger once while true" sid="5657489617663006" type="System" />
             </conditions>
             <actions>
-                <action behavior="Physics" id="3" name="Apply impulse" sid="228670143088311" type="Bombs">
+                <action behavior="Physics" disabled="1" id="3" name="Apply impulse" sid="228670143088311" type="Bombs">
                     <param id="0" name="Impulse X">-random(30,80)</param>
                     <param id="1" name="Implulse Y">0</param>
                     <param id="2" name="Image point">0</param>
+                </action>
+                <action behavior="Physics" id="15" name="Set velocity" sid="768881113976501" type="Bombs">
+                    <param id="0" name="X component">-150</param>
+                    <param id="1" name="Y component">0</param>
                 </action>
             </actions>
         </event-block>

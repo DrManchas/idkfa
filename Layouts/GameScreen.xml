@@ -5,7 +5,7 @@
     <event-sheet>GameMechanics</event-sheet>
     <size>
         <width>1920</width>
-        <height>1094</height>
+        <height>1080</height>
     </size>
     <margins>
         <horizontal>500</horizontal>
@@ -28,7 +28,28 @@
             <use-render-cells>0</use-render-cells>
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
-            <instances />
+            <instances>
+                <instance type="TiledBackground" uid="24">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <hotspot>Top-left</hotspot>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>0</x>
+                        <y>0</y>
+                        <z>0</z>
+                        <width>1920</width>
+                        <height>1088</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+            </instances>
             <effects />
         </layer>
         <layer name="Elements" sid="2934912093113049">
@@ -57,11 +78,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>160</x>
-                        <y>928</y>
+                        <x>384</x>
+                        <y>768</y>
                         <z>0</z>
                         <width>320</width>
-                        <height>352</height>
+                        <height>224</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -93,11 +114,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>320</x>
-                        <y>1024</y>
+                        <x>544</x>
+                        <y>896</y>
                         <z>0</z>
-                        <width>1568</width>
-                        <height>64</height>
+                        <width>1056</width>
+                        <height>192</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -115,8 +136,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1760</x>
-                        <y>352</y>
+                        <x>1504</x>
+                        <y>448</y>
                         <z>0</z>
                         <width>128</width>
                         <height>256</height>

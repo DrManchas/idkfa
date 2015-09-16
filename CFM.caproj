@@ -10,6 +10,8 @@
     <unique-id>2m2oqhlgof90t</unique-id>
     <saved-with-version>21202</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Function" version="1">Function</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Spritefont2" version="1">Sprite font</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
@@ -48,7 +50,16 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2784723649701807" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.676471" hotspotY="0.5625" original-source="C:\Users\PANCHOTRON\Desktop\MCFT\tnt_crate.png">
+                            <collision-poly>
+                                <point x="0.0186082" y="0.231579" />
+                                <point x="0.676509" y="0.0631579" />
+                                <point x="1" y="0.421053" />
+                                <point x="1" y="0.710526" />
+                                <point x="0.676509" y="0.989474" />
+                                <point x="0.0186082" y="0.9" />
+                            </collision-poly>
+                        </frame>
                     </animation>
                 </animation-folder>
             </object-type>
@@ -58,7 +69,18 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4975003576681923" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.472727" hotspotY="0.484375" original-source="C:\Users\PANCHOTRON\Desktop\MCFT\assets-cake2.png">
+                            <collision-poly>
+                                <point x="0.156431" y="0.269809" />
+                                <point x="0.476246" y="0.00802407" />
+                                <point x="0.800695" y="0.265797" />
+                                <point x="0.929316" y="0.487462" />
+                                <point x="0.864426" y="0.764293" />
+                                <point x="0.476246" y="0.998997" />
+                                <point x="0.117034" y="0.739218" />
+                                <point x="0.0382387" y="0.487462" />
+                            </collision-poly>
+                        </frame>
                     </animation>
                 </animation-folder>
             </object-type>
@@ -66,7 +88,73 @@
                 <plugin id="Sprite" />
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3486674904842898" speed="5">
-                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        <frame duration="1" hotspotX="0.483516" hotspotY="0.4375" original-source="C:\Users\PANCHOTRON\Desktop\MCFT\assets cake1.png">
+                            <collision-poly>
+                                <point x="0.16623" y="0.126946" />
+                                <point x="0.48822" y="0.0143713" />
+                                <point x="0.820681" y="0.117365" />
+                                <point x="0.973822" y="0.435928" />
+                                <point x="0.96466" y="0.886228" />
+                                <point x="0.48822" y="0.997605" />
+                                <point x="0.0157068" y="0.882635" />
+                                <point x="0.0104712" y="0.435928" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Cake3" sid="8288554480350914">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="3" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8863561072826509" speed="9">
+                        <frame duration="1" hotspotX="0.504587" hotspotY="0.504673" original-source="C:\Users\PANCHOTRON\Desktop\MCFT\cake04_animacion\pasteles.psd_0002_Layer-2.png">
+                            <collision-poly>
+                                <point x="0.183486" y="0.186916" />
+                                <point x="0.495413" y="0.0280374" />
+                                <point x="0.798165" y="0.205607" />
+                                <point x="0.917431" y="0.495327" />
+                                <point x="0.926606" y="0.925234" />
+                                <point x="0.495413" y="0.981308" />
+                                <point x="0.137615" y="0.859813" />
+                                <point x="0.0183486" y="0.495327" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.505155" original-source="C:\Users\PANCHOTRON\Desktop\MCFT\cake04_animacion\pasteles.psd_0000_Layer-2-copy-2.png" />
+                        <frame duration="1" hotspotX="0.503937" hotspotY="0.504854" original-source="C:\Users\PANCHOTRON\Desktop\MCFT\cake04_animacion\pasteles.psd_0001_Layer-2-copy.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Cake4" sid="9497372012856993">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="3" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2138413260188453" speed="9">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\PANCHOTRON\Desktop\MCFT\cake07 animacion\cake7.psd_0000_Layer-6-copy-2.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\PANCHOTRON\Desktop\MCFT\cake07 animacion\cake7.psd_0001_Layer-6-copy.png" />
+                        <frame duration="1" hotspotX="0.505263" hotspotY="0.505747" original-source="C:\Users\PANCHOTRON\Desktop\MCFT\cake07 animacion\cake7.psd_0002_Layer-6.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Cake5" sid="4936676462289229">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="3" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2162866510821437" speed="9">
+                        <frame duration="1" hotspotX="0.502128" hotspotY="0.5" original-source="C:\Users\PANCHOTRON\Desktop\MCFT\Cake05 Animacion\cake05.psd_0000s_0000_Brightness_Contrast-1-copy-2.png">
+                            <collision-poly>
+                                <point x="0.310638" y="0.0509259" />
+                                <point x="0.646809" y="0.0509259" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.50237" hotspotY="0.5" original-source="C:\Users\PANCHOTRON\Desktop\MCFT\Cake05 Animacion\cake05.psd_0000s_0001_Brightness_Contrast-1-copy.png">
+                            <collision-poly>
+                                <point x="0.322275" y="0.0347826" />
+                                <point x="0.677725" y="0.0478261" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\PANCHOTRON\Desktop\MCFT\Cake05 Animacion\cake05.psd_0000s_0002_Brightness_Contrast-1.png" />
                     </animation>
                 </animation-folder>
             </object-type>
@@ -78,7 +166,18 @@
                         <plugin id="Sprite" />
                         <animation-folder>
                             <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1261239346830962" speed="5">
-                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\PANCHOTRON\Desktop\MCFT\Elements\Buttons\button07_07.png">
+                                    <collision-poly>
+                                        <point x="0.0757576" y="0.0757576" />
+                                        <point x="0.5" y="0.0151515" />
+                                        <point x="0.924242" y="0.0757576" />
+                                        <point x="0.954545" y="0.5" />
+                                        <point x="0.893939" y="0.893939" />
+                                        <point x="0.5" y="0.924242" />
+                                        <point x="0.106061" y="0.893939" />
+                                        <point x="0.0454545" y="0.5" />
+                                    </collision-poly>
+                                </frame>
                             </animation>
                         </animation-folder>
                     </object-type>
@@ -86,7 +185,18 @@
                         <plugin id="Sprite" />
                         <animation-folder>
                             <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8977538899265009" speed="5">
-                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\PANCHOTRON\Desktop\MCFT\Elements\Buttons\button01_01.png">
+                                    <collision-poly>
+                                        <point x="0.0757576" y="0.0757576" />
+                                        <point x="0.5" y="0.0151515" />
+                                        <point x="0.924242" y="0.0757576" />
+                                        <point x="0.954545" y="0.5" />
+                                        <point x="0.893939" y="0.893939" />
+                                        <point x="0.5" y="0.924242" />
+                                        <point x="0.106061" y="0.893939" />
+                                        <point x="0.0454545" y="0.5" />
+                                    </collision-poly>
+                                </frame>
                             </animation>
                         </animation-folder>
                     </object-type>
@@ -94,7 +204,84 @@
                         <plugin id="Sprite" />
                         <animation-folder>
                             <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4701634969996846" speed="5">
-                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\PANCHOTRON\Desktop\MCFT\Elements\Buttons\button09_09.png">
+                                    <collision-poly>
+                                        <point x="0.0757576" y="0.0757576" />
+                                        <point x="0.5" y="0.0151515" />
+                                        <point x="0.924242" y="0.0757576" />
+                                        <point x="0.954545" y="0.5" />
+                                        <point x="0.893939" y="0.893939" />
+                                        <point x="0.5" y="0.924242" />
+                                        <point x="0.106061" y="0.893939" />
+                                        <point x="0.0454545" y="0.5" />
+                                    </collision-poly>
+                                </frame>
+                            </animation>
+                        </animation-folder>
+                    </object-type>
+                    <object-type name="ToggleSound" sid="2987758691080419">
+                        <plugin id="Sprite" />
+                        <animation-folder>
+                            <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8975429460783629" speed="5">
+                                <frame duration="1" hotspotX="0.503876" hotspotY="0.5" original-source="C:\Users\PANCHOTRON\Desktop\MCFT\Elements\Toggles\toggle_on.png">
+                                    <collision-poly>
+                                        <point x="0.0387597" y="0.0892857" />
+                                        <point x="0.496124" y="0.0178571" />
+                                        <point x="0.96124" y="0.0892857" />
+                                        <point x="0.976744" y="0.5" />
+                                        <point x="0.945736" y="0.875" />
+                                        <point x="0.496124" y="0.910714" />
+                                        <point x="0.0542636" y="0.875" />
+                                        <point x="0.0232558" y="0.5" />
+                                    </collision-poly>
+                                </frame>
+                            </animation>
+                            <animation framecount="1" loop="0" name="Off" pingpong="0" repeatcount="1" repeatto="0" sid="2951227124875381" speed="5">
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\PANCHOTRON\Desktop\MCFT\Elements\Toggles\toggle_off.png">
+                                    <collision-poly>
+                                        <point x="0.047619" y="0.107143" />
+                                        <point x="0.5" y="0.0178571" />
+                                        <point x="0.952381" y="0.107143" />
+                                        <point x="0.97619" y="0.5" />
+                                        <point x="0.944444" y="0.875" />
+                                        <point x="0.5" y="0.910714" />
+                                        <point x="0.0634921" y="0.857143" />
+                                        <point x="0.0238095" y="0.5" />
+                                    </collision-poly>
+                                </frame>
+                            </animation>
+                        </animation-folder>
+                    </object-type>
+                    <object-type name="ToggleMusic" sid="1407868592408859">
+                        <plugin id="Sprite" />
+                        <animation-folder>
+                            <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8043775821900352" speed="5">
+                                <frame duration="1" hotspotX="0.503876" hotspotY="0.5" original-source="C:\Users\PANCHOTRON\Desktop\MCFT\Elements\Toggles\toggle_on.png">
+                                    <collision-poly>
+                                        <point x="0.0387597" y="0.0892857" />
+                                        <point x="0.496124" y="0.0178571" />
+                                        <point x="0.96124" y="0.0892857" />
+                                        <point x="0.976744" y="0.5" />
+                                        <point x="0.945736" y="0.875" />
+                                        <point x="0.496124" y="0.910714" />
+                                        <point x="0.0542636" y="0.875" />
+                                        <point x="0.0232558" y="0.5" />
+                                    </collision-poly>
+                                </frame>
+                            </animation>
+                            <animation framecount="1" loop="0" name="Off" pingpong="0" repeatcount="1" repeatto="0" sid="6388964704781366" speed="5">
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\PANCHOTRON\Desktop\MCFT\Elements\Toggles\toggle_off.png">
+                                    <collision-poly>
+                                        <point x="0.047619" y="0.107143" />
+                                        <point x="0.5" y="0.0178571" />
+                                        <point x="0.952381" y="0.107143" />
+                                        <point x="0.97619" y="0.5" />
+                                        <point x="0.944444" y="0.875" />
+                                        <point x="0.5" y="0.910714" />
+                                        <point x="0.0634921" y="0.857143" />
+                                        <point x="0.0238095" y="0.5" />
+                                    </collision-poly>
+                                </frame>
                             </animation>
                         </animation-folder>
                     </object-type>
@@ -124,7 +311,26 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3096598386142997" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\PANCHOTRON\Desktop\MCFT\Cake_Factory_Monster.png">
+                        <collision-poly>
+                            <point x="0.185819" y="0.0378549" />
+                            <point x="0.493888" y="0.00946372" />
+                            <point x="0.702086" y="0.459047" />
+                            <point x="0.766985" y="0.726524" />
+                            <point x="0.76509" y="0.965835" />
+                            <point x="0.493888" y="0.993691" />
+                            <point x="0.0415648" y="0.949527" />
+                            <point x="0.00977995" y="0.400631" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="6" loop="0" name="Sad" pingpong="0" repeatcount="1" repeatto="0" sid="2928534069363298" speed="15">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Gii_triste\Cake_Factory_Monster_cpenalty.psd_0000s_0000_Layer-0-copy-5.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Gii_triste\Cake_Factory_Monster_cpenalty.psd_0000s_0001_Layer-0-copy-4.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Gii_triste\Cake_Factory_Monster_cpenalty.psd_0000s_0002_Layer-0-copy-3.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Gii_triste\Cake_Factory_Monster_cpenalty.psd_0000s_0003_Layer-0-copy.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Gii_triste\Cake_Factory_Monster_cpenalty.psd_0000s_0004_Layer-0-copy-2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Gii_triste\Cake_Factory_Monster_cpenalty.psd_0000s_0005_Layer-0.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -135,7 +341,7 @@
                     <behavior id="Physics" />
                 </behavior-type>
             </behaviors>
-            <texture />
+            <texture original-source="C:\Users\PANCHOTRON\Desktop\MCFT\convenyor_belt.png" />
         </object-type>
         <object-type name="Tube" sid="9736656092647823">
             <plugin id="Sprite" />
@@ -147,6 +353,136 @@
         </object-type>
         <object-type name="Touch" sid="768383046623261">
             <plugin id="Touch" />
+        </object-type>
+        <object-type name="TiledBackground" sid="7650999434282412">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\PANCHOTRON\Desktop\MCFT\cfm_conceptart.png" />
+        </object-type>
+        <object-type name="RestartButton" sid="5316903258589954">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="707733198992763" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\PANCHOTRON\Desktop\MCFT\Elements\Buttons\button02_02.png">
+                        <collision-poly>
+                            <point x="0.0144509" y="0.0757576" />
+                            <point x="0.5" y="0.0151515" />
+                            <point x="0.985549" y="0.0757576" />
+                            <point x="0.979769" y="0.893939" />
+                            <point x="0.5" y="0.924242" />
+                            <point x="0.0202312" y="0.893939" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite" sid="8147319377943694">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="6" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7728770782964891" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Gii_triste\Cake_Factory_Monster_cpenalty.psd_0000s_0000_Layer-0-copy-5.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Gii_triste\Cake_Factory_Monster_cpenalty.psd_0000s_0001_Layer-0-copy-4.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Gii_triste\Cake_Factory_Monster_cpenalty.psd_0000s_0002_Layer-0-copy-3.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Gii_triste\Cake_Factory_Monster_cpenalty.psd_0000s_0003_Layer-0-copy.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Gii_triste\Cake_Factory_Monster_cpenalty.psd_0000s_0004_Layer-0-copy-2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Gii_triste\Cake_Factory_Monster_cpenalty.psd_0000s_0005_Layer-0.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2" sid="4512924283222941">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2535398952172829" speed="5">
+                    <frame duration="1" hotspotX="0.503876" hotspotY="0.5" original-source="C:\Users\PANCHOTRON\Desktop\MCFT\Elements\Toggles\toggle_on.png">
+                        <collision-poly>
+                            <point x="0.0387597" y="0.0892857" />
+                            <point x="0.496124" y="0.0178571" />
+                            <point x="0.96124" y="0.0892857" />
+                            <point x="0.976744" y="0.5" />
+                            <point x="0.945736" y="0.875" />
+                            <point x="0.496124" y="0.910714" />
+                            <point x="0.0542636" y="0.875" />
+                            <point x="0.0232558" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Off" pingpong="0" repeatcount="1" repeatto="0" sid="4396346423045946" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\PANCHOTRON\Desktop\MCFT\Elements\Toggles\toggle_off.png">
+                        <collision-poly>
+                            <point x="0.047619" y="0.107143" />
+                            <point x="0.5" y="0.0178571" />
+                            <point x="0.952381" y="0.107143" />
+                            <point x="0.97619" y="0.5" />
+                            <point x="0.944444" y="0.875" />
+                            <point x="0.5" y="0.910714" />
+                            <point x="0.0634921" y="0.857143" />
+                            <point x="0.0238095" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="MusicIcon" sid="514197143257946">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="677188528729326" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\PANCHOTRON\Desktop\MCFT\Elements\Buttons\button26_26.png">
+                        <collision-poly>
+                            <point x="0.0757576" y="0.0757576" />
+                            <point x="0.5" y="0.0151515" />
+                            <point x="0.924242" y="0.0757576" />
+                            <point x="0.954545" y="0.5" />
+                            <point x="0.893939" y="0.893939" />
+                            <point x="0.5" y="0.924242" />
+                            <point x="0.106061" y="0.893939" />
+                            <point x="0.0454545" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SoundIcon" sid="1524931490799854">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7768701426097439" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\PANCHOTRON\Desktop\MCFT\Elements\Buttons\button27_27.png">
+                        <collision-poly>
+                            <point x="0.0757576" y="0.0757576" />
+                            <point x="0.5" y="0.0151515" />
+                            <point x="0.924242" y="0.0757576" />
+                            <point x="0.954545" y="0.5" />
+                            <point x="0.893939" y="0.893939" />
+                            <point x="0.5" y="0.924242" />
+                            <point x="0.106061" y="0.893939" />
+                            <point x="0.0454545" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BackButton" sid="7986505351657932">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9696916397061402" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\PANCHOTRON\Desktop\MCFT\Elements\Buttons\button32_32.png">
+                        <collision-poly>
+                            <point x="0.0757576" y="0.0757576" />
+                            <point x="0.5" y="0.0151515" />
+                            <point x="0.924242" y="0.0757576" />
+                            <point x="0.954545" y="0.5" />
+                            <point x="0.893939" y="0.893939" />
+                            <point x="0.5" y="0.924242" />
+                            <point x="0.106061" y="0.893939" />
+                            <point x="0.0454545" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Function" sid="7573575292801962">
+            <plugin id="Function" />
+        </object-type>
+        <object-type name="Audio" sid="6711807291165452">
+            <plugin id="Audio" />
         </object-type>
     </object-folder>
     <families>
@@ -164,6 +500,9 @@
             <members>
                 <member>Cake</member>
                 <member>Cake2</member>
+                <member>Cake3</member>
+                <member>Cake4</member>
+                <member>Cake5</member>
             </members>
             <behaviors>
                 <behavior-type name="Physics" sid="8314840251652461">
@@ -197,6 +536,7 @@
         <event-sheet>CFMBehavior.xml</event-sheet>
         <event-sheet>MenuMechanics.xml</event-sheet>
         <event-sheet>UIBehavior.xml</event-sheet>
+        <event-sheet>SoundManager.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Touch" uid="10">
@@ -204,8 +544,26 @@
                 <use-mouse-input>Yes</use-mouse-input>
             </properties>
         </global-instance>
+        <global-instance type="Function" uid="34" />
+        <global-instance type="Audio" uid="35">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
     </global-instances>
-    <sounds-folder />
+    <sounds-folder>
+        <file name="Hall.m4a" />
+        <file name="Hall.ogg" />
+    </sounds-folder>
     <music-folder />
     <files-folder>
         <file-folder name="Icons">

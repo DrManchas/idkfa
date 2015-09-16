@@ -25,6 +25,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <event-sheet order="10">CFMBehavior</event-sheet>
         <event-sheet order="13">MenuMechanics</event-sheet>
         <event-sheet order="14">UIBehavior</event-sheet>
+        <event-sheet order="15">SoundManager</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -39,9 +40,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </families-expanded>
     <folders-expanded>
         <folder expanded="1" path="object-folder/" />
-        <folder expanded="1" path="object-folder/Bombs/" />
+        <folder expanded="0" path="object-folder/Bombs/" />
         <folder expanded="1" path="object-folder/Cakes/" />
-        <folder expanded="1" path="object-folder/UI/" />
+        <folder expanded="0" path="object-folder/UI/" />
         <folder expanded="1" path="object-folder/UI/Home/" />
         <folder expanded="1" path="object-folder/UI/Home/Buttons/" />
         <folder expanded="1" path="object-folder/UI/Records/" />
@@ -55,11 +56,22 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/Bomb/" />
         <folder expanded="1" path="animation-folder/Cake/" />
         <folder expanded="1" path="animation-folder/Cake2/" />
+        <folder expanded="1" path="animation-folder/Cake3/" />
+        <folder expanded="1" path="animation-folder/Cake4/" />
+        <folder expanded="1" path="animation-folder/Cake5/" />
         <folder expanded="1" path="animation-folder/OptionsButton/" />
         <folder expanded="1" path="animation-folder/PlayButton/" />
         <folder expanded="1" path="animation-folder/ScoreButton/" />
+        <folder expanded="1" path="animation-folder/ToggleSound/" />
+        <folder expanded="1" path="animation-folder/ToggleMusic/" />
         <folder expanded="1" path="animation-folder/RecordTable/" />
         <folder expanded="1" path="animation-folder/CakeFactoryMonster/" />
         <folder expanded="1" path="animation-folder/Tube/" />
+        <folder expanded="1" path="animation-folder/RestartButton/" />
+        <folder expanded="1" path="animation-folder/Sprite/" />
+        <folder expanded="1" path="animation-folder/Sprite2/" />
+        <folder expanded="1" path="animation-folder/MusicIcon/" />
+        <folder expanded="1" path="animation-folder/SoundIcon/" />
+        <folder expanded="1" path="animation-folder/BackButton/" />
     </folders-expanded>
 </c2uistate>
