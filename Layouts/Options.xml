@@ -4,8 +4,8 @@
     <sid>5685801048595968</sid>
     <event-sheet>MenuMechanics</event-sheet>
     <size>
-        <width>1920</width>
-        <height>1080</height>
+        <width>1080</width>
+        <height>1920</height>
     </size>
     <margins>
         <horizontal>500</horizontal>
@@ -40,8 +40,8 @@
                         <x>0</x>
                         <y>0</y>
                         <z>0</z>
-                        <width>1920</width>
-                        <height>1088</height>
+                        <width>1088</width>
+                        <height>1920</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>

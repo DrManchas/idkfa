@@ -16,6 +16,10 @@
                 <action id="-2" name="Go to layout" sid="3311398871191939" type="System">
                     <param id="0" name="Layout">Records</param>
                 </action>
+                <action id="-9" name="Set value" sid="4698945414881224" type="System">
+                    <param id="0" name="Variable">ActualScore</param>
+                    <param id="1" name="Value">0</param>
+                </action>
             </actions>
         </event-block>
     </events>

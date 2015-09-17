@@ -4,8 +4,8 @@
     <sid>3398681987598005</sid>
     <event-sheet>MenuMechanics</event-sheet>
     <size>
-        <width>1920</width>
-        <height>1080</height>
+        <width>1080</width>
+        <height>1920</height>
     </size>
     <margins>
         <horizontal>500</horizontal>
@@ -40,8 +40,8 @@
                         <x>0</x>
                         <y>0</y>
                         <z>0</z>
-                        <width>1920</width>
-                        <height>1088</height>
+                        <width>1088</width>
+                        <height>1920</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -78,8 +78,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1216</x>
-                        <y>320</y>
+                        <x>544</x>
+                        <y>832</y>
                         <z>0</z>
                         <width>692</width>
                         <height>132</height>
@@ -100,8 +100,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1216</x>
-                        <y>160</y>
+                        <x>544</x>
+                        <y>640</y>
                         <z>0</z>
                         <width>692</width>
                         <height>132</height>
@@ -122,8 +122,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1216</x>
-                        <y>480</y>
+                        <x>544</x>
+                        <y>1024</y>
                         <z>0</z>
                         <width>692</width>
                         <height>132</height>

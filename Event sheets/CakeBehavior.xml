@@ -5,7 +5,7 @@
     <events>
         <event-block sid="8356893338518292">
             <conditions>
-                <condition id="17" name="On tap object" sid="5786023760864029" type="Touch">
+                <condition id="3" name="On touched object" sid="5786023760864029" type="Touch">
                     <param id="0" name="Object">Cakes</param>
                 </condition>
             </conditions>
@@ -61,6 +61,16 @@
                     <param id="0" name="Animation">&quot;Default&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
+            </actions>
+        </event-block>
+        <event-block sid="2982810818509372">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="6471518584913702" type="Cakes">
+                    <param id="0" name="Object">RecolectorCakes</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="3291050569167466" type="Cakes" />
             </actions>
         </event-block>
     </events>

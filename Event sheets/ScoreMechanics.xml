@@ -6,11 +6,23 @@
         <event-block sid="8480537643066651">
             <conditions>
                 <condition id="17" name="On tap object" sid="853896254703967" type="Touch">
-                    <param id="0" name="Object">PlayButton</param>
+                    <param id="0" name="Object">BackMenuButton</param>
                 </condition>
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="4609595792795263" type="System">
+                    <param id="0" name="Layout">MenuScreen</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="992109912961584">
+            <conditions>
+                <condition id="3" name="On touched object" sid="53603209578808" type="Touch">
+                    <param id="0" name="Object">RestartButton</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="9661635790357706" type="System">
                     <param id="0" name="Layout">GameScreen</param>
                 </action>
             </actions>

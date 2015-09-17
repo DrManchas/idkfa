@@ -7,7 +7,7 @@
         <event-block sid="9706120762061759">
             <conditions>
                 <condition id="-6" name="Every X seconds" sid="7523370687403248" type="System">
-                    <param id="0" name="Interval (seconds)">random(0.5,2)</param>
+                    <param id="0" name="Interval (seconds)">random(2,4)</param>
                 </condition>
             </conditions>
             <actions>
@@ -28,7 +28,7 @@
                     <actions>
                         <action id="0" name="Spawn another object" sid="511662074459996" type="Tube">
                             <param id="0" name="Object">Cakes</param>
-                            <param id="1" name="Layer">0</param>
+                            <param id="1" name="Layer">2</param>
                             <param id="2" name="Image point">0</param>
                         </action>
                     </actions>
@@ -40,7 +40,7 @@
                     <actions>
                         <action id="0" name="Spawn another object" sid="8834867841179732" type="Tube">
                             <param id="0" name="Object">Bombs</param>
-                            <param id="1" name="Layer">0</param>
+                            <param id="1" name="Layer">2</param>
                             <param id="2" name="Image point">0</param>
                         </action>
                     </actions>
