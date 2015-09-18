@@ -606,6 +606,16 @@
     <sounds-folder>
         <file name="Hall.m4a" />
         <file name="Hall.ogg" />
+        <file name="Explosion.m4a" />
+        <file name="Explosion.ogg" />
+        <file name="Falling.m4a" />
+        <file name="Falling.ogg" />
+        <file name="Item1D.m4a" />
+        <file name="Item1D.ogg" />
+        <file name="Machinery Hum1 - 34 Seconds.m4a" />
+        <file name="Machinery Hum1 - 34 Seconds.ogg" />
+        <file name="ZombieDeath.m4a" />
+        <file name="ZombieDeath.ogg" />
     </sounds-folder>
     <music-folder />
     <files-folder>
