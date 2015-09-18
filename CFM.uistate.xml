@@ -10,22 +10,18 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">Layout 1</layout>
-        <layout order="2">GameScreen</layout>
-        <layout order="3">MenuScreen</layout>
-        <layout order="11">Options</layout>
-        <layout order="12">Records</layout>
-        <event-sheet order="1">GameMechanics</event-sheet>
-        <event-sheet order="4">BombBehavior</event-sheet>
-        <event-sheet order="5">CakeBehavior</event-sheet>
-        <event-sheet order="6">TubeBehavior</event-sheet>
-        <event-sheet order="7">ScoreMechanics</event-sheet>
-        <event-sheet order="8">CameraBehavior</event-sheet>
-        <event-sheet order="9">Vars</event-sheet>
-        <event-sheet order="10">CFMBehavior</event-sheet>
-        <event-sheet order="13">MenuMechanics</event-sheet>
-        <event-sheet active="1" order="14">UIBehavior</event-sheet>
-        <event-sheet order="15">SoundManager</event-sheet>
+        <layout order="0">GameScreen</layout>
+        <layout order="1">MenuScreen</layout>
+        <layout order="8">Options</layout>
+        <layout order="9">Records</layout>
+        <event-sheet order="2">BombBehavior</event-sheet>
+        <event-sheet order="3">CakeBehavior</event-sheet>
+        <event-sheet order="4">TubeBehavior</event-sheet>
+        <event-sheet active="1" order="5">CameraBehavior</event-sheet>
+        <event-sheet order="6">Vars</event-sheet>
+        <event-sheet order="7">CFMBehavior</event-sheet>
+        <event-sheet order="10">MenuMechanics</event-sheet>
+        <event-sheet order="11">SoundManager</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />

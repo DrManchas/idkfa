@@ -2,5 +2,135 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>CameraBehavior</name>
-    <events />
+    <events>
+        <variable constant="0" name="GiiY" sid="3856835808085541" static="0" type="number">0</variable>
+        <event-block sid="1628439887242822">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="4227163885344667" type="System">
+                    <param id="0" name="Variable">ActualScore</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Value">5</param>
+                </condition>
+                <condition id="-4" name="Trigger once while true" sid="1557472246929773" type="System" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="2422855877323316" type="System">
+                    <param id="0" name="Object to create">CakeFactoryMonster</param>
+                    <param id="1" name="Layer">1</param>
+                    <param id="2" name="X">128</param>
+                    <param id="3" name="Y">704</param>
+                </action>
+                <action id="-3" name="Create object" sid="1267998674879741" type="System">
+                    <param id="0" name="Object to create">Tube</param>
+                    <param id="1" name="Layer">1</param>
+                    <param id="2" name="X">960</param>
+                    <param id="3" name="Y">576</param>
+                </action>
+                <action id="-7" name="Set size" sid="9687565354966334" type="CakeFactoryMonster">
+                    <param id="0" name="Width">224</param>
+                    <param id="1" name="Height">160</param>
+                </action>
+                <action id="-7" name="Set size" sid="3841724846324523" type="Tube">
+                    <param id="0" name="Width">128</param>
+                    <param id="1" name="Height">96</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6144167620910842">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="5968452827886016" type="System">
+                    <param id="0" name="Variable">ActualScore</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Value">10</param>
+                </condition>
+                <condition id="-4" name="Trigger once while true" sid="3888862235279324" type="System" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="387974146335379" type="System">
+                    <param id="0" name="Object to create">CakeFactoryMonster</param>
+                    <param id="1" name="Layer">1</param>
+                    <param id="2" name="X">128</param>
+                    <param id="3" name="Y">1056</param>
+                </action>
+                <action id="-3" name="Create object" sid="5791400038379327" type="System">
+                    <param id="0" name="Object to create">Tube</param>
+                    <param id="1" name="Layer">1</param>
+                    <param id="2" name="X">960</param>
+                    <param id="3" name="Y">928</param>
+                </action>
+                <action id="-7" name="Set size" sid="7593565448110499" type="CakeFactoryMonster">
+                    <param id="0" name="Width">224</param>
+                    <param id="1" name="Height">160</param>
+                </action>
+                <action id="-7" name="Set size" sid="7493477661554992" type="Tube">
+                    <param id="0" name="Width">128</param>
+                    <param id="1" name="Height">96</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6971323445913022">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="277761042841215" type="System">
+                    <param id="0" name="Variable">ActualScore</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Value">15</param>
+                </condition>
+                <condition id="-4" name="Trigger once while true" sid="1443378887098824" type="System" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="5896334119011481" type="System">
+                    <param id="0" name="Object to create">CakeFactoryMonster</param>
+                    <param id="1" name="Layer">1</param>
+                    <param id="2" name="X">128</param>
+                    <param id="3" name="Y">1408</param>
+                </action>
+                <action id="-3" name="Create object" sid="3175441759911238" type="System">
+                    <param id="0" name="Object to create">Tube</param>
+                    <param id="1" name="Layer">1</param>
+                    <param id="2" name="X">960</param>
+                    <param id="3" name="Y">1280</param>
+                </action>
+                <action id="-7" name="Set size" sid="8578566836933697" type="CakeFactoryMonster">
+                    <param id="0" name="Width">224</param>
+                    <param id="1" name="Height">160</param>
+                </action>
+                <action id="-7" name="Set size" sid="6914278579736032" type="Tube">
+                    <param id="0" name="Width">128</param>
+                    <param id="1" name="Height">96</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8293396558125637">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="8173597267436297" type="System">
+                    <param id="0" name="Variable">ActualScore</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Value">20</param>
+                </condition>
+                <condition id="-4" name="Trigger once while true" sid="9397074452983433" type="System" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="1612444080410578" type="System">
+                    <param id="0" name="Object to create">CakeFactoryMonster</param>
+                    <param id="1" name="Layer">1</param>
+                    <param id="2" name="X">128</param>
+                    <param id="3" name="Y">1760</param>
+                </action>
+                <action id="-3" name="Create object" sid="1585648510583535" type="System">
+                    <param id="0" name="Object to create">Tube</param>
+                    <param id="1" name="Layer">1</param>
+                    <param id="2" name="X">960</param>
+                    <param id="3" name="Y">1632</param>
+                </action>
+                <action id="-7" name="Set size" sid="8713262111335913" type="CakeFactoryMonster">
+                    <param id="0" name="Width">224</param>
+                    <param id="1" name="Height">160</param>
+                </action>
+                <action id="-7" name="Set size" sid="8183701595897105" type="Tube">
+                    <param id="0" name="Width">128</param>
+                    <param id="1" name="Height">96</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
 </c2eventsheet>
