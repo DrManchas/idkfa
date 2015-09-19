@@ -712,6 +712,24 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="score_sprite" sid="5771187020626105">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3644529909042759" speed="5">
+                    <frame duration="1" hotspotX="0.539474" hotspotY="0.470588" original-source="E:\score.png">
+                        <collision-poly>
+                            <point x="0.0263158" y="0.0784314" />
+                            <point x="0.532895" y="0.0196078" />
+                            <point x="0.953947" y="0.352941" />
+                            <point x="0.993421" y="0.705882" />
+                            <point x="0.532895" y="0.843137" />
+                            <point x="0.0394737" y="0.82353" />
+                            <point x="0.0394737" y="0.470588" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families>
         <family name="Bombs" plugin-id="Sprite" sid="3722148104141689">
