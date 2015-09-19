@@ -28,6 +28,10 @@
                 </condition>
             </conditions>
             <actions>
+                <action id="4" name="Set animation" sid="2872972005769062" type="CakeFactoryMonster">
+                    <param id="0" name="Animation">&quot;Eat&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
                 <action id="-9" name="Destroy" sid="4730851310323069" type="Cakes" />
                 <action id="-9" name="Set value" sid="6998913445175063" type="System">
                     <param id="0" name="Variable">ActualScore</param>
@@ -62,6 +66,19 @@
             </conditions>
             <actions>
                 <action id="4" name="Set animation" sid="9935129012379704" type="CakeFactoryMonster">
+                    <param id="0" name="Animation">&quot;Default&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3423337596496484">
+            <conditions>
+                <condition id="4" name="On finished" sid="73300524861162" type="CakeFactoryMonster">
+                    <param id="0" name="Animation">&quot;Eat&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="7905868118983759" type="CakeFactoryMonster">
                     <param id="0" name="Animation">&quot;Default&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>

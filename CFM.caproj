@@ -12,6 +12,7 @@
     <used-plugins>
         <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
         <plugin author="Scirra" id="Function" version="1">Function</plugin>
+        <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Spritefont2" version="1">Sprite font</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
@@ -19,6 +20,7 @@
     </used-plugins>
     <used-behaviors>
         <behavior author="Scirra" id="Physics" version="1">Physics</behavior>
+        <behavior author="Scirra" id="Rotate" version="1">Rotate</behavior>
     </used-behaviors>
     <used-effects />
     <configurations>
@@ -304,23 +306,88 @@
             </object-folder>
             <object-type name="SpriteFont" sid="6460879984773419">
                 <plugin id="Spritefont2" />
-                <texture />
+                <texture original-source="C:\Users\Ozonetw\Desktop\test_Two.png" />
+            </object-type>
+            <object-type name="Bottom_CDM" sid="9126849117962271">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="51016989312525" speed="5">
+                        <frame duration="1" hotspotX="0.501416" hotspotY="0.5" original-source="C:\Users\Ozonetw\Pictures\Final Assets\Bottom_CFM.png">
+                            <collision-poly>
+                                <point x="0.00458716" y="0.341085" />
+                                <point x="0.463303" y="0.0155039" />
+                                <point x="0.995413" y="0.0930233" />
+                                <point x="0.995413" y="0.937984" />
+                                <point x="0.463303" y="0.984496" />
+                                <point x="0.00458716" y="0.689922" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="gear" sid="4435424780694412">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Rotate" sid="9483310078398714">
+                        <behavior id="Rotate" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5395533028531286" speed="5">
+                        <frame duration="1" hotspotX="0.503401" hotspotY="0.5" original-source="C:\Users\Ozonetw\Pictures\Final Assets\Gear.png">
+                            <collision-poly>
+                                <point x="0.136054" y="0.197183" />
+                                <point x="0.979592" y="0.492958" />
+                                <point x="0.122449" y="0.809859" />
+                                <point x="0.0136054" y="0.492958" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="explosion" sid="5801119884162163">
+                <plugin id="Particles" />
+                <texture original-source="C:\Users\Ozonetw\Pictures\Final Assets\explosion.png" />
             </object-type>
         </object-folder>
         <object-type name="CakeFactoryMonster" sid="3647527436313366">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3096598386142997" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\PANCHOTRON\Desktop\MCFT\Cake_Factory_Monster.png">
+                <animation framecount="3" loop="1" name="Default" pingpong="1" repeatcount="1" repeatto="0" sid="3096598386142997" speed="15">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502439" original-source="F:\Idle_Frames\come_0001_Layer-1.png">
                         <collision-poly>
-                            <point x="0.185819" y="0.0378549" />
-                            <point x="0.493888" y="0.00946372" />
-                            <point x="0.702086" y="0.459047" />
-                            <point x="0.766985" y="0.726524" />
-                            <point x="0.76509" y="0.965835" />
-                            <point x="0.493888" y="0.993691" />
-                            <point x="0.0415648" y="0.949527" />
-                            <point x="0.00977995" y="0.400631" />
+                            <point x="0.107981" y="0.129577" />
+                            <point x="0.5" y="0.0056338" />
+                            <point x="0.941315" y="0.0704225" />
+                            <point x="0.995305" y="0.498592" />
+                            <point x="0.948357" y="0.938028" />
+                            <point x="0.5" y="0.994366" />
+                            <point x="0.0680751" y="0.91831" />
+                            <point x="0.00469484" y="0.498592" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502439" original-source="F:\Idle_Frames\come_0002_Layer-0.png">
+                        <collision-poly>
+                            <point x="0.0990338" y="0.123123" />
+                            <point x="0.5" y="0.00600601" />
+                            <point x="0.944444" y="0.0690691" />
+                            <point x="0.997585" y="0.498498" />
+                            <point x="0.975845" y="0.96997" />
+                            <point x="0.5" y="0.996997" />
+                            <point x="0.0386473" y="0.951952" />
+                            <point x="0.00724638" y="0.498498" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502439" original-source="F:\Idle_Frames\come_0000_Layer-2.png">
+                        <collision-poly>
+                            <point x="0.0786241" y="0.101587" />
+                            <point x="0.498771" y="0.00634921" />
+                            <point x="0.972973" y="0.0349206" />
+                            <point x="0.995086" y="0.498413" />
+                            <point x="0.980344" y="0.974603" />
+                            <point x="0.498771" y="0.996825" />
+                            <point x="0.036855" y="0.952381" />
+                            <point x="0.004914" y="0.498413" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -332,6 +399,43 @@
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Gii_triste\Cake_Factory_Monster_cpenalty.psd_0000s_0004_Layer-0-copy-2.png" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Gii_triste\Cake_Factory_Monster_cpenalty.psd_0000s_0005_Layer-0.png" />
                 </animation>
+                <animation framecount="3" loop="0" name="Eat" pingpong="1" repeatcount="1" repeatto="0" sid="6122508255608508" speed="15">
+                    <frame duration="1" hotspotX="0.503448" hotspotY="0.502439" original-source="F:\Gii_comer\Cake_Factory_Monster_eat_0002_Layer-0-copy.png">
+                        <collision-poly>
+                            <point x="0.123596" y="0.189655" />
+                            <point x="0.498127" y="0.0172414" />
+                            <point x="0.906367" y="0.143678" />
+                            <point x="0.917603" y="0.873563" />
+                            <point x="0.498127" y="0.982759" />
+                            <point x="0.0524345" y="0.91954" />
+                            <point x="0.082397" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.503448" hotspotY="0.502439" original-source="F:\Gii_comer\Cake_Factory_Monster_eat_0001_Layer-0-copy-2.png">
+                        <collision-poly>
+                            <point x="0.120755" y="0.179775" />
+                            <point x="0.498113" y="0.011236" />
+                            <point x="0.89434" y="0.157303" />
+                            <point x="0.890566" y="0.5" />
+                            <point x="0.916981" y="0.876405" />
+                            <point x="0.498113" y="0.988764" />
+                            <point x="0.0528302" y="0.921348" />
+                            <point x="0.0754717" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.503448" hotspotY="0.502439" original-source="F:\Gii_comer\Cake_Factory_Monster_eat_0000_Layer-0-copy-3.png">
+                        <collision-poly>
+                            <point x="0.120755" y="0.172973" />
+                            <point x="0.498113" y="0.0108108" />
+                            <point x="0.886792" y="0.162162" />
+                            <point x="0.883019" y="0.497297" />
+                            <point x="0.909434" y="0.87027" />
+                            <point x="0.498113" y="0.962162" />
+                            <point x="0.0603774" y="0.913514" />
+                            <point x="0.0679245" y="0.497297" />
+                        </collision-poly>
+                    </frame>
+                </animation>
             </animation-folder>
         </object-type>
         <object-type name="Piso" sid="2091716984752048">
@@ -341,13 +445,24 @@
                     <behavior id="Physics" />
                 </behavior-type>
             </behaviors>
-            <texture original-source="C:\Users\PANCHOTRON\Desktop\MCFT\convenyor_belt.png" />
+            <texture original-source="C:\Users\Ozonetw\Pictures\Final Assets\base.png" />
         </object-type>
         <object-type name="Tube" sid="9736656092647823">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4387810933087235" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.49711" hotspotY="0.522727" original-source="F:\chimenea.png">
+                        <collision-poly>
+                            <point x="0.0924855" y="0.397727" />
+                            <point x="0.49711" y="0.00568182" />
+                            <point x="0.901734" y="0.397727" />
+                            <point x="0.99422" y="0.522727" />
+                            <point x="0.99422" y="0.738636" />
+                            <point x="0.49711" y="0.994318" />
+                            <point x="0.00578035" y="0.732955" />
+                            <point x="0.00578035" y="0.522727" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
@@ -356,7 +471,7 @@
         </object-type>
         <object-type name="TiledBackground" sid="7650999434282412">
             <plugin id="TiledBg" />
-            <texture original-source="C:\Users\PANCHOTRON\Desktop\MCFT\cfm_conceptart.png" />
+            <texture original-source="C:\Users\Ozonetw\Pictures\Final Assets\CFM_Background_Fix.png" />
         </object-type>
         <object-type name="RestartButton" sid="5316903258589954">
             <plugin id="Sprite" />
@@ -557,6 +672,24 @@
                             <point x="0.0202312" y="0.893939" />
                         </collision-poly>
                     </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite3" sid="3792785627600165">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="3" loop="1" name="Default" pingpong="1" repeatcount="1" repeatto="0" sid="1766235988890689" speed="10">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501502" original-source="F:\Idle_Frames\come_0002_Layer-0.png" />
+                    <frame duration="1" hotspotX="0.501229" hotspotY="0.501587" original-source="F:\Idle_Frames\come_0000_Layer-2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501408" original-source="F:\Idle_Frames\come_0001_Layer-1.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="fondo_Title" sid="6398545118925846">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1270439147359834" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50026" original-source="E:\fondo-menu.png" />
                 </animation>
             </animation-folder>
         </object-type>
