@@ -20,6 +20,7 @@
     </used-plugins>
     <used-behaviors>
         <behavior author="Scirra" id="Physics" version="1">Physics</behavior>
+        <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
         <behavior author="Scirra" id="Rotate" version="1">Rotate</behavior>
     </used-behaviors>
     <used-effects />
@@ -481,6 +482,11 @@
         </object-type>
         <object-type name="RestartButton" sid="5316903258589954">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Pin" sid="1896802995481151">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="707733198992763" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\PANCHOTRON\Desktop\MCFT\Elements\Buttons\button02_02.png">
@@ -607,6 +613,11 @@
         </object-type>
         <object-type name="BackMenuButton" sid="9629017246616289">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Pin" sid="4620953017960284">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1442993878271412" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\DrManchas\Desktop\Mobile_Game_UI_-_Dark_Style\Elements\Buttons\button04_04.png">
@@ -666,6 +677,11 @@
         </object-type>
         <object-type name="ResumeButton" sid="7829957960117195">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Pin" sid="5310303988651483">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4361592627643797" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\DrManchas\Desktop\Mobile_Game_UI_-_Dark_Style\Elements\Buttons_alternative\btn_big_resume_game.png">
@@ -735,6 +751,10 @@
                     </frame>
                 </animation>
             </animation-folder>
+        </object-type>
+        <object-type name="PauseOverBg" sid="5888998605285944">
+            <plugin id="TiledBg" />
+            <texture />
         </object-type>
     </object-folder>
     <families>
@@ -827,6 +847,12 @@
         <file name="Machinery Hum1 - 34 Seconds.ogg" />
         <file name="ZombieDeath.m4a" />
         <file name="ZombieDeath.ogg" />
+        <file name="pause.m4a" />
+        <file name="pause.ogg" />
+        <file name="resume.m4a" />
+        <file name="resume.ogg" />
+        <file name="restart.m4a" />
+        <file name="restart.ogg" />
     </sounds-folder>
     <music-folder />
     <files-folder>

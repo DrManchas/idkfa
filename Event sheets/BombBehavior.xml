@@ -6,12 +6,17 @@
         <event-block sid="9295466561002197">
             <conditions>
                 <condition id="3" name="On touched object" sid="8666651503582049" type="Touch">
-                    <param id="0" name="Object">Bombs</param>
+                    <param id="0" name="Object">Bomb</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-9" name="Destroy" sid="7191266221107068" type="Bombs" />
-                <action id="0" name="Call function" sid="9553322782293666" type="Function">
+                <action id="-9" name="Destroy" sid="7191266221107068" type="Bomb" />
+                <action id="0" name="Spawn another object" sid="6933786367920814" type="Bomb">
+                    <param id="0" name="Object">explosion</param>
+                    <param id="1" name="Layer">3</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+                <action id="0" name="Call function" sid="1030014933622775" type="Function">
                     <param id="0" name="Name">&quot;PlaySound&quot;</param>
                     <param id="1" name="Parameter {n}">&quot;Explosion&quot;</param>
                 </action>
@@ -24,6 +29,10 @@
                 </condition>
             </conditions>
             <actions>
+                <action id="0" name="Call function" sid="9553322782293666" type="Function">
+                    <param id="0" name="Name">&quot;PlaySound&quot;</param>
+                    <param id="1" name="Parameter {n}">&quot;Explosion&quot;</param>
+                </action>
                 <action id="-9" name="Destroy" sid="4676231423950504" type="CakeFactoryMonster" />
             </actions>
         </event-block>

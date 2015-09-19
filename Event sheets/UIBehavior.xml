@@ -37,23 +37,117 @@
                             <param id="0" name="Variable">Pause</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                    </actions>
-                </event-block>
-                <event-block sid="4890432655846422">
-                    <conditions>
-                        <condition id="-22" name="Else" sid="456668447826976" type="System" />
-                    </conditions>
-                    <actions>
-                        <action id="-13" name="Set time scale" sid="9400403356592163" type="System">
-                            <param id="0" name="Time scale">1</param>
+                        <action id="-3" name="Set position" sid="686863174318175" type="PauseOverBg">
+                            <param id="0" name="X">0</param>
+                            <param id="1" name="Y">0</param>
                         </action>
-                        <action id="-9" name="Set value" sid="2798695370698973" type="System">
-                            <param id="0" name="Variable">Pause</param>
-                            <param id="1" name="Value">0</param>
+                        <action id="-3" name="Set position" sid="3328803448132777" type="PausePanel">
+                            <param id="0" name="X">580</param>
+                            <param id="1" name="Y">906</param>
+                        </action>
+                        <action id="22" name="Set paused" sid="2219924215871941" type="Audio">
+                            <param id="0" name="Tag">&quot;BackgroundMusic&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="0" name="Call function" sid="1129521630626565" type="Function">
+                            <param id="0" name="Name">&quot;PlaySound&quot;</param>
+                            <param id="1" name="Parameter {n}">&quot;pause&quot;</param>
                         </action>
                     </actions>
                 </event-block>
             </sub-events>
+        </event-block>
+        <event-block sid="5828832034670773">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="7912441790348129" type="System" />
+            </conditions>
+            <actions>
+                <action behavior="Pin" id="0" name="Pin to object" sid="2418103684673849" type="ResumeButton">
+                    <param id="0" name="Pin to">PausePanel</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+                <action behavior="Pin" id="0" name="Pin to object" sid="7804821659708806" type="RestartButton">
+                    <param id="0" name="Pin to">PausePanel</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+                <action behavior="Pin" id="0" name="Pin to object" sid="9875466898116177" type="BackMenuButton">
+                    <param id="0" name="Pin to">PausePanel</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2364612146029204">
+            <conditions>
+                <condition id="3" name="On touched object" sid="2534559456993259" type="Touch">
+                    <param id="0" name="Object">ResumeButton</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-13" name="Set time scale" sid="9764135400189835" type="System">
+                    <param id="0" name="Time scale">1</param>
+                </action>
+                <action id="-9" name="Set value" sid="4928900555861189" type="System">
+                    <param id="0" name="Variable">Pause</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-3" name="Set position" sid="8891791842523993" type="PauseOverBg">
+                    <param id="0" name="X">-1090</param>
+                    <param id="1" name="Y">0</param>
+                </action>
+                <action id="-3" name="Set position" sid="9318467045517754" type="PausePanel">
+                    <param id="0" name="X">0</param>
+                    <param id="1" name="Y">-1000</param>
+                </action>
+                <action id="22" name="Set paused" sid="6429798015429434" type="Audio">
+                    <param id="0" name="Tag">&quot;BackgroundMusic&quot;</param>
+                    <param id="1" name="State">1</param>
+                </action>
+                <action id="0" name="Call function" sid="8830028135214094" type="Function">
+                    <param id="0" name="Name">&quot;PlaySound&quot;</param>
+                    <param id="1" name="Parameter {n}">&quot;resume&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4884681355739266">
+            <conditions>
+                <condition id="3" name="On touched object" sid="3079003159079853" type="Touch">
+                    <param id="0" name="Object">RestartButton</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-13" name="Set time scale" sid="2562605877505529" type="System">
+                    <param id="0" name="Time scale">1</param>
+                </action>
+                <action id="-26" name="Restart layout" sid="2262824919117159" type="System" />
+                <action id="-9" name="Set value" sid="7691674332889014" type="System">
+                    <param id="0" name="Variable">Pause</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="0" name="Call function" sid="9748755219291411" type="Function">
+                    <param id="0" name="Name">&quot;PlaySound&quot;</param>
+                    <param id="1" name="Parameter {n}">&quot;restart&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7631154718330491">
+            <conditions>
+                <condition id="3" name="On touched object" sid="4828286414845219" type="Touch">
+                    <param id="0" name="Object">BackMenuButton</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-13" name="Set time scale" sid="6756189808545951" type="System">
+                    <param id="0" name="Time scale">1</param>
+                </action>
+                <action id="-9" name="Set value" sid="7581314856277911" type="System">
+                    <param id="0" name="Variable">Pause</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="0" name="Call function" sid="4447088828673226" type="Function">
+                    <param id="0" name="Name">&quot;PlaySound&quot;</param>
+                    <param id="1" name="Parameter {n}">&quot;restart&quot;</param>
+                </action>
+            </actions>
         </event-block>
     </events>
 </c2eventsheet>
