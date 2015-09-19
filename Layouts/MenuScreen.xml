@@ -51,6 +51,28 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="cfm_logo" uid="75">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>544</x>
+                        <y>480</y>
+                        <z>0</z>
+                        <width>948.373657227</width>
+                        <height>926.254150391</height>
+                        <depth>0</depth>
+                        <hotspotX>0.486880481</hotspotX>
+                        <hotspotY>0.50149256</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
             <effects />
         </layer>
@@ -80,11 +102,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>544</x>
-                        <y>832</y>
+                        <x>832</x>
+                        <y>1184</y>
                         <z>0</z>
-                        <width>692</width>
-                        <height>132</height>
+                        <width>463.389343262</width>
+                        <height>88.392189026</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -102,11 +124,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>544</x>
-                        <y>640</y>
+                        <x>832</x>
+                        <y>1088</y>
                         <z>0</z>
-                        <width>692</width>
-                        <height>132</height>
+                        <width>463.389343262</width>
+                        <height>88.392189026</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -124,11 +146,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>544</x>
-                        <y>1024</y>
+                        <x>832</x>
+                        <y>1280</y>
                         <z>0</z>
-                        <width>692</width>
-                        <height>132</height>
+                        <width>463.389343262</width>
+                        <height>88.392189026</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>

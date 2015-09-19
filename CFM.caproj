@@ -693,6 +693,25 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="cfm_logo" sid="1944239547277959">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1332123657698618" speed="5">
+                    <frame duration="1" hotspotX="0.48688" hotspotY="0.501493" original-source="E:\CakeFactoryLogo.png">
+                        <collision-poly>
+                            <point x="0.216148" y="0.247796" />
+                            <point x="0.487032" y="0.00886686" />
+                            <point x="0.708927" y="0.297942" />
+                            <point x="0.81267" y="0.498525" />
+                            <point x="0.841487" y="0.837746" />
+                            <point x="0.487032" y="0.899691" />
+                            <point x="0.020189" y="0.952786" />
+                            <point x="0.164276" y="0.498525" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families>
         <family name="Bombs" plugin-id="Sprite" sid="3722148104141689">
