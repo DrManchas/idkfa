@@ -71,45 +71,40 @@
             <object-type name="Cake" sid="7373643950282958">
                 <plugin id="Sprite" />
                 <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4975003576681923" speed="5">
-                        <frame duration="1" hotspotX="0.472727" hotspotY="0.484375" original-source="C:\Users\PANCHOTRON\Desktop\MCFT\assets-cake2.png">
-                            <collision-poly>
-                                <point x="0.156431" y="0.269809" />
-                                <point x="0.476246" y="0.00802407" />
-                                <point x="0.800695" y="0.265797" />
-                                <point x="0.929316" y="0.487462" />
-                                <point x="0.864426" y="0.764293" />
-                                <point x="0.476246" y="0.998997" />
-                                <point x="0.117034" y="0.739218" />
-                                <point x="0.0382387" y="0.487462" />
-                            </collision-poly>
-                        </frame>
+                    <animation framecount="3" loop="1" name="Default" pingpong="1" repeatcount="1" repeatto="0" sid="4975003576681923" speed="15">
+                        <frame duration="1" hotspotX="0.445455" hotspotY="0.375" original-source="C:\Users\Ozonetw\Downloads\cake01\assets-cake2_0000_Layer 0 copy 2.png" />
+                        <frame duration="1" hotspotX="0.481818" hotspotY="0.445313" original-source="C:\Users\Ozonetw\Downloads\cake01\assets-cake2_0001_Layer 0 copy.png" />
+                        <frame duration="1" hotspotX="0.472727" hotspotY="0.484375" original-source="C:\Users\Ozonetw\Downloads\cake01\assets-cake2_0002_Layer 0.png" />
                     </animation>
                 </animation-folder>
             </object-type>
             <object-type name="Cake2" sid="5423171627699593">
                 <plugin id="Sprite" />
                 <animation-folder>
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3486674904842898" speed="5">
-                        <frame duration="1" hotspotX="0.483516" hotspotY="0.4375" original-source="C:\Users\PANCHOTRON\Desktop\MCFT\assets cake1.png">
+                    <animation framecount="5" loop="1" name="Default" pingpong="1" repeatcount="1" repeatto="0" sid="3486674904842898" speed="15">
+                        <frame duration="1" hotspotX="0.481203" hotspotY="0.441176" original-source="C:\Users\Ozonetw\Downloads\cake01\assets-cake2_0000_Layer-0-copy-2.png">
                             <collision-poly>
-                                <point x="0.16623" y="0.126946" />
-                                <point x="0.48822" y="0.0143713" />
-                                <point x="0.820681" y="0.117365" />
-                                <point x="0.973822" y="0.435928" />
-                                <point x="0.96466" y="0.886228" />
-                                <point x="0.48822" y="0.997605" />
-                                <point x="0.0157068" y="0.882635" />
-                                <point x="0.0104712" y="0.435928" />
+                                <point x="0.166939" y="0.127958" />
+                                <point x="0.488245" y="0.0156892" />
+                                <point x="0.82" y="0.118403" />
+                                <point x="0.972816" y="0.436102" />
+                                <point x="0.963673" y="0.88518" />
+                                <point x="0.488245" y="0.996255" />
+                                <point x="0.016735" y="0.881597" />
+                                <point x="0.0115105" y="0.436102" />
                             </collision-poly>
                         </frame>
+                        <frame duration="1" hotspotX="0.503759" hotspotY="0.5" original-source="C:\Users\Ozonetw\Downloads\cake01\assets-cake2_0001_Layer-0-copy-4.png" />
+                        <frame duration="1" hotspotX="0.503759" hotspotY="0.5" original-source="C:\Users\Ozonetw\Downloads\cake01\assets-cake2_0002_Layer-0-copy.png" />
+                        <frame duration="1" hotspotX="0.503759" hotspotY="0.5" original-source="C:\Users\Ozonetw\Downloads\cake01\assets-cake2_0003_Layer-0-copy-3.png" />
+                        <frame duration="1" hotspotX="0.503759" hotspotY="0.5" original-source="C:\Users\Ozonetw\Downloads\cake01\assets-cake2_0004_Layer-0.png" />
                     </animation>
                 </animation-folder>
             </object-type>
             <object-type name="Cake3" sid="8288554480350914">
                 <plugin id="Sprite" />
                 <animation-folder>
-                    <animation framecount="3" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8863561072826509" speed="9">
+                    <animation framecount="3" loop="1" name="Default" pingpong="1" repeatcount="1" repeatto="0" sid="8863561072826509" speed="9">
                         <frame duration="1" hotspotX="0.504587" hotspotY="0.504673" original-source="C:\Users\PANCHOTRON\Desktop\MCFT\cake04_animacion\pasteles.psd_0002_Layer-2.png">
                             <collision-poly>
                                 <point x="0.183486" y="0.186916" />
@@ -130,7 +125,7 @@
             <object-type name="Cake4" sid="9497372012856993">
                 <plugin id="Sprite" />
                 <animation-folder>
-                    <animation framecount="3" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2138413260188453" speed="9">
+                    <animation framecount="3" loop="1" name="Default" pingpong="1" repeatcount="1" repeatto="0" sid="2138413260188453" speed="9">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\PANCHOTRON\Desktop\MCFT\cake07 animacion\cake7.psd_0000_Layer-6-copy-2.png" />
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\PANCHOTRON\Desktop\MCFT\cake07 animacion\cake7.psd_0001_Layer-6-copy.png" />
                         <frame duration="1" hotspotX="0.505263" hotspotY="0.505747" original-source="C:\Users\PANCHOTRON\Desktop\MCFT\cake07 animacion\cake7.psd_0002_Layer-6.png" />
@@ -307,7 +302,7 @@
             </object-folder>
             <object-type name="SpriteFont" sid="6460879984773419">
                 <plugin id="Spritefont2" />
-                <texture original-source="C:\Users\Ozonetw\Desktop\test_Two.png" />
+                <texture original-source="C:\Users\Ozonetw\Desktop\newSF.png" />
             </object-type>
             <object-type name="Bottom_CDM" sid="9126849117962271">
                 <plugin id="Sprite" />
@@ -755,6 +750,14 @@
         <object-type name="PauseOverBg" sid="5888998605285944">
             <plugin id="TiledBg" />
             <texture />
+        </object-type>
+        <object-type name="Sprite4" sid="3284524847498972">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3025384141323434" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Ozonetw\Downloads\cake01\assets-cake2_0003_Layer-0-copy-3.png" />
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families>
