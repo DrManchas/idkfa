@@ -13,9 +13,9 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <layout order="0">GameScreen</layout>
         <layout order="1">MenuScreen</layout>
         <layout order="8">Options</layout>
-        <layout active="1" order="9">Records</layout>
+        <layout order="9">Records</layout>
         <layout order="14">Layout 1</layout>
-        <event-sheet order="2">BombBehavior</event-sheet>
+        <event-sheet active="1" order="2">BombBehavior</event-sheet>
         <event-sheet order="3">CakeBehavior</event-sheet>
         <event-sheet order="4">TubeBehavior</event-sheet>
         <event-sheet order="5">CameraBehavior</event-sheet>
@@ -25,6 +25,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <event-sheet order="11">SoundManager</event-sheet>
         <event-sheet order="12">ScoreMechanics</event-sheet>
         <event-sheet order="13">GameMechanics</event-sheet>
+        <event-sheet order="15">UIBehavior</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
