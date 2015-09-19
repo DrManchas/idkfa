@@ -30,9 +30,17 @@
                     <param id="0" name="Width">224</param>
                     <param id="1" name="Height">160</param>
                 </action>
+                <action id="-10" name="Set value" sid="7456205922087449" type="CakeFactoryMonster">
+                    <param id="0" name="Instance variable">Instancia</param>
+                    <param id="1" name="Value">2</param>
+                </action>
                 <action id="-7" name="Set size" sid="3841724846324523" type="Tube">
                     <param id="0" name="Width">128</param>
                     <param id="1" name="Height">96</param>
+                </action>
+                <action id="-10" name="Set value" sid="8289494278569829" type="Tube">
+                    <param id="0" name="Instance variable">Instancia</param>
+                    <param id="1" name="Value">2</param>
                 </action>
             </actions>
         </event-block>
@@ -66,6 +74,14 @@
                     <param id="0" name="Width">128</param>
                     <param id="1" name="Height">96</param>
                 </action>
+                <action id="-10" name="Set value" sid="8237650754443673" type="CakeFactoryMonster">
+                    <param id="0" name="Instance variable">Instancia</param>
+                    <param id="1" name="Value">3</param>
+                </action>
+                <action id="-10" name="Set value" sid="4781930309889813" type="Tube">
+                    <param id="0" name="Instance variable">Instancia</param>
+                    <param id="1" name="Value">3</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="6971323445913022">
@@ -98,6 +114,14 @@
                     <param id="0" name="Width">128</param>
                     <param id="1" name="Height">96</param>
                 </action>
+                <action id="-10" name="Set value" sid="7121470544132315" type="CakeFactoryMonster">
+                    <param id="0" name="Instance variable">Instancia</param>
+                    <param id="1" name="Value">4</param>
+                </action>
+                <action id="-10" name="Set value" sid="7073152962775015" type="Tube">
+                    <param id="0" name="Instance variable">Instancia</param>
+                    <param id="1" name="Value">4</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="8293396558125637">
@@ -129,6 +153,14 @@
                 <action id="-7" name="Set size" sid="8183701595897105" type="Tube">
                     <param id="0" name="Width">128</param>
                     <param id="1" name="Height">96</param>
+                </action>
+                <action id="-10" name="Set value" sid="3748932877122542" type="CakeFactoryMonster">
+                    <param id="0" name="Instance variable">Instancia</param>
+                    <param id="1" name="Value">5</param>
+                </action>
+                <action id="-10" name="Set value" sid="8486007463316619" type="Tube">
+                    <param id="0" name="Instance variable">Instancia</param>
+                    <param id="1" name="Value">5</param>
                 </action>
             </actions>
         </event-block>

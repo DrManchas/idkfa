@@ -8,6 +8,11 @@
                 <condition id="3" name="On touched object" sid="5786023760864029" type="Touch">
                     <param id="0" name="Object">Cakes</param>
                 </condition>
+                <condition id="-7" name="Compare instance variable" sid="6526060499949149" type="CakeFactoryMonster">
+                    <param id="0" name="Instance variable">Instancia</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">Cakes.Instance</param>
+                </condition>
             </conditions>
             <actions>
                 <action id="-9" name="Destroy" sid="3426647788241737" type="Cakes" />
