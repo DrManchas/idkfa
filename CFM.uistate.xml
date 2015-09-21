@@ -10,22 +10,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">GameScreen</layout>
-        <layout order="1">MenuScreen</layout>
-        <layout order="8">Options</layout>
-        <layout order="9">Records</layout>
-        <layout order="14">Layout 1</layout>
-        <event-sheet active="1" order="2">BombBehavior</event-sheet>
-        <event-sheet order="3">CakeBehavior</event-sheet>
-        <event-sheet order="4">TubeBehavior</event-sheet>
-        <event-sheet order="5">CameraBehavior</event-sheet>
-        <event-sheet order="6">Vars</event-sheet>
-        <event-sheet order="7">CFMBehavior</event-sheet>
-        <event-sheet order="10">MenuMechanics</event-sheet>
-        <event-sheet order="11">SoundManager</event-sheet>
-        <event-sheet order="12">ScoreMechanics</event-sheet>
-        <event-sheet order="13">GameMechanics</event-sheet>
-        <event-sheet order="15">UIBehavior</event-sheet>
+        <layout order="0">MenuScreen</layout>
+        <event-sheet active="1" order="1">TubeBehavior</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
