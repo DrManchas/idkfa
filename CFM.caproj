@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2project>
     <name>CFM</name>
-    <description></description>
+    <description>Casual Game</description>
     <version>1.0.0.0</version>
-    <author></author>
-    <author-email></author-email>
-    <author-website>http://</author-website>
-    <app-id>com.mycompany.myapp</app-id>
+    <author>tequilaware</author>
+    <author-email>tavoiii@gmail.com</author-email>
+    <author-website>http://tequilaware.com</author-website>
+    <app-id>com.tequilaware.cakefactorymonster</app-id>
     <unique-id>2m2oqhlgof90t</unique-id>
     <saved-with-version>21202</saved-with-version>
     <used-plugins>
@@ -34,6 +34,7 @@
     </window-size>
     <pixel-rounding>0</pixel-rounding>
     <preview-effects>1</preview-effects>
+    <first-layout>MenuScreen</first-layout>
     <use-loader-layout>0</use-loader-layout>
     <configuration-settings>
         <prop name="Clear background">Yes</prop>
@@ -454,7 +455,7 @@
             </instance-variables>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4387810933087235" speed="5">
-                    <frame duration="1" hotspotX="0.49711" hotspotY="0.988636" original-source="F:\chimenea.png">
+                    <frame duration="1" hotspotX="0.50289" hotspotY="1" original-source="F:\chimenea.png">
                         <collision-poly>
                             <point x="0.0924855" y="0.397727" />
                             <point x="0.49711" y="0.00568182" />
@@ -870,6 +871,12 @@
         <file name="resume.ogg" />
         <file name="restart.m4a" />
         <file name="restart.ogg" />
+        <file name="eat1.m4a" />
+        <file name="eat1.ogg" />
+        <file name="eat2.m4a" />
+        <file name="eat2.ogg" />
+        <file name="eat3.m4a" />
+        <file name="eat3.ogg" />
     </sounds-folder>
     <music-folder />
     <files-folder>
