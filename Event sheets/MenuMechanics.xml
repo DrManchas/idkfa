@@ -10,6 +10,12 @@
                 </condition>
             </conditions>
             <actions>
+                <action id="0" name="Play" sid="8935412204794802" type="Audio">
+                    <param id="0" name="Audio file">button_cute_02</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">-10</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
                 <action id="-2" name="Go to layout" sid="1792558382203531" type="System">
                     <param id="0" name="Layout">GameScreen</param>
                 </action>
@@ -22,6 +28,12 @@
                 </condition>
             </conditions>
             <actions>
+                <action id="0" name="Play" sid="969291741592579" type="Audio">
+                    <param id="0" name="Audio file">button_cute_02</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">-10</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
                 <action id="-2" name="Go to layout" sid="8881820749356559" type="System">
                     <param id="0" name="Layout">Options</param>
                 </action>
@@ -34,6 +46,12 @@
                 </condition>
             </conditions>
             <actions>
+                <action id="0" name="Play" sid="4937209064571481" type="Audio">
+                    <param id="0" name="Audio file">button_cute_02</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">-10</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
                 <action id="-2" name="Go to layout" sid="1687749478909487" type="System">
                     <param id="0" name="Layout">MenuScreen</param>
                 </action>
@@ -45,7 +63,14 @@
                     <param id="0" name="Object">ToggleMusic</param>
                 </condition>
             </conditions>
-            <actions />
+            <actions>
+                <action id="0" name="Play" sid="8514184361535194" type="Audio">
+                    <param id="0" name="Audio file">button_cute_02</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">-10</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
             <sub-events>
                 <event-block sid="4738376362924262">
                     <conditions>
@@ -89,7 +114,14 @@
                     <param id="0" name="Object">ToggleSound</param>
                 </condition>
             </conditions>
-            <actions />
+            <actions>
+                <action id="0" name="Play" sid="5639414787850346" type="Audio">
+                    <param id="0" name="Audio file">button_cute_02</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">-10</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
             <sub-events>
                 <event-block sid="2864348555210392">
                     <conditions>

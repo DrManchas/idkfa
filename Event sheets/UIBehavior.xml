@@ -3,13 +3,14 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>UIBehavior</name>
     <events>
+        <variable constant="0" name="randomizer" sid="949571783978798" static="0" type="number">1</variable>
         <event-block sid="4637827423566092">
             <conditions>
                 <condition id="-1" name="Every tick" sid="6917737289862259" type="System" />
             </conditions>
             <actions>
                 <action id="0" name="Set text" sid="1682290290787709" type="SpriteFont">
-                    <param id="0" name="Text">&quot;&quot;&amp;ActualScore</param>
+                    <param id="0" name="Text">&quot;&quot;&amp; ActualScore</param>
                 </action>
             </actions>
         </event-block>
@@ -19,7 +20,14 @@
                     <param id="0" name="Object">PauseButton</param>
                 </condition>
             </conditions>
-            <actions />
+            <actions>
+                <action id="0" name="Play" sid="9291720512729407" type="Audio">
+                    <param id="0" name="Audio file">message_01</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">-10</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
             <sub-events>
                 <event-block sid="8323940274781276">
                     <conditions>
