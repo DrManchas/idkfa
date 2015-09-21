@@ -178,6 +178,28 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="credits" uid="82">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>532.09564209</x>
+                        <y>1792</y>
+                        <z>0</z>
+                        <width>1053</width>
+                        <height>231</height>
+                        <depth>0</depth>
+                        <hotspotX>0.492877483</hotspotX>
+                        <hotspotY>0.519480526</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
                 <instance type="fadeTrans" uid="80">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -200,7 +222,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>576</x>
-                        <y>960</y>
+                        <y>864</y>
                         <z>0</z>
                         <width>1406</width>
                         <height>2165</height>

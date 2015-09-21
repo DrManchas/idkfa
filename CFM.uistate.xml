@@ -10,8 +10,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">MenuScreen</layout>
-        <event-sheet active="1" order="1">TubeBehavior</event-sheet>
+        <layout active="1" order="0">MenuScreen</layout>
+        <layout order="2">Options</layout>
+        <layout order="3">GameScreen</layout>
+        <event-sheet order="1">TubeBehavior</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -71,5 +73,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/score_sprite/" />
         <folder expanded="1" path="animation-folder/Sprite4/" />
         <folder expanded="1" path="animation-folder/fadeTrans/" />
+        <folder expanded="1" path="animation-folder/credits/" />
     </folders-expanded>
 </c2uistate>
