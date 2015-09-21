@@ -10,6 +10,12 @@
                 </condition>
             </conditions>
             <actions>
+                <action id="0" name="Play" sid="6710536362226074" type="Audio">
+                    <param id="0" name="Audio file">button_cute_02</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">-10</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
                 <action id="-2" name="Go to layout" sid="4609595792795263" type="System">
                     <param id="0" name="Layout">MenuScreen</param>
                 </action>
@@ -26,6 +32,12 @@
                 </condition>
             </conditions>
             <actions>
+                <action id="0" name="Play" sid="4426216662935689" type="Audio">
+                    <param id="0" name="Audio file">button_cute_02</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">-10</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
                 <action id="-2" name="Go to layout" sid="9661635790357706" type="System">
                     <param id="0" name="Layout">GameScreen</param>
                 </action>

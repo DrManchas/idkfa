@@ -877,6 +877,10 @@
         <file name="eat2.ogg" />
         <file name="eat3.m4a" />
         <file name="eat3.ogg" />
+        <file name="button_cute_02.m4a" />
+        <file name="button_cute_02.ogg" />
+        <file name="message_01.m4a" />
+        <file name="message_01.ogg" />
     </sounds-folder>
     <music-folder />
     <files-folder>
